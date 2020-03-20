@@ -12,4 +12,8 @@ Matlab 2019a or higher
 
 ## Usage
 
+The pretrained network can be used to recognize the object as follows:
 
+net.classify(image)
+
+The 'train_network.m' can be used to train the network with your own image dataset. 
